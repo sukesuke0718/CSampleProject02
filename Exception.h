@@ -1,0 +1,14 @@
+#ifndef EXCEPTION_H_
+#define EXCEPTION_H_
+
+class Exception {
+
+public:
+	virtual ~Exception();
+
+public:
+	// ƒGƒ‰[‚Ìó‹µ‚ğo—Í‚·‚éŠÖ”
+	virtual const char* What() const = 0;
+};
+
+#endif	// EXCEPTION_H_
